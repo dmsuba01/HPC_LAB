@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/RunTests.dir/test/test.cpp.o CMakeFiles/RunTests.dir/src/BubbleSort.cpp.o CMakeFiles/RunTests.dir/src/MergeSort.cpp.o CMakeFiles/RunTests.dir/src/QuickSort.cpp.o -o RunTests 

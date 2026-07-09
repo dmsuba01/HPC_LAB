@@ -1,0 +1,49 @@
+=========================================
+SORTING ALGORITHM PERFORMANCE REPORT
+=========================================
+
+Input Size : 100
+
+Bubble Sort : 280 microseconds
+Merge Sort  : 228 microseconds
+Quick Sort  : 50 microseconds
+
+Best Algorithm : Quick Sort
+-----------------------------------------
+
+Input Size : 500
+
+Bubble Sort : 7034 microseconds
+Merge Sort  : 1260 microseconds
+Quick Sort  : 334 microseconds
+
+Best Algorithm : Quick Sort
+-----------------------------------------
+
+Input Size : 1000
+
+Bubble Sort : 28462 microseconds
+Merge Sort  : 1389 microseconds
+Quick Sort  : 351 microseconds
+
+Best Algorithm : Quick Sort
+-----------------------------------------
+
+Input Size : 5000
+
+Bubble Sort : 151853 microseconds
+Merge Sort  : 2476 microseconds
+Quick Sort  : 753 microseconds
+
+Best Algorithm : Quick Sort
+-----------------------------------------
+
+Input Size : 10000
+
+Bubble Sort : 526589 microseconds
+Merge Sort  : 4972 microseconds
+Quick Sort  : 1638 microseconds
+
+Best Algorithm : Quick Sort
+-----------------------------------------
+

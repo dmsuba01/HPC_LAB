@@ -1,0 +1,4 @@
+/home/cyber-hpc/Desktop/Subashri/Sortingcomparison/build/CMakeFiles/SortingComparison.dir
+/home/cyber-hpc/Desktop/Subashri/Sortingcomparison/build/CMakeFiles/RunTests.dir
+/home/cyber-hpc/Desktop/Subashri/Sortingcomparison/build/CMakeFiles/edit_cache.dir
+/home/cyber-hpc/Desktop/Subashri/Sortingcomparison/build/CMakeFiles/rebuild_cache.dir
