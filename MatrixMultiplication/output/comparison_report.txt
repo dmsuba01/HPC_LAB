@@ -1,0 +1,30 @@
+===================================================
+     MATRIX MULTIPLICATION LOOP ORDER COMPARISON
+===================================================
+
+Matrix Size : 2500 x 2500
+
+Loop Order ijk : 55255 milliseconds
+Loop Order ikj : 8639 milliseconds
+Loop Order jik : 53664 milliseconds
+Loop Order jki : 123509 milliseconds
+Loop Order kij : 8783 milliseconds
+Loop Order kji : 124828 milliseconds
+
+---------------------------------------------------
+
+Fastest Loop Order
+
+ikj (8639 milliseconds)
+
+Correctness Check : PASSED
+
+Observations
+
+* ikj and kij tend to be fastest: both A and B are swept
+  row-wise (cache-friendly) in the innermost loop.
+* jki and kji tend to be slowest: at least one matrix is
+  accessed column-wise, causing frequent cache misses.
+* ijk and jik fall in between, with A accessed row-wise
+  but B accessed column-wise in the innermost loop.
+===================================================
